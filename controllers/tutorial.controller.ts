@@ -35,6 +35,7 @@ const create = (req: Request, res: Response) => {
 
 // Retrieve all Tutorials from the database.
 const findAll = (req: Request, res: Response) => {
+  // res.status(200).json({ status: true, message: `hello` });
   const title = req.query.title;
   var condition = title ? { title: { [Op.like]: `%${title}%` } } : null;
 

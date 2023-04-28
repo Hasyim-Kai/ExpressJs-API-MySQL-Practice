@@ -2,7 +2,7 @@ module.exports = {
   HOST: "localhost",
   USER: "root",
   PASSWORD: "",
-  DB: "express_api",
+  DB: "express_rest_api_database_development",
   dialect: "mysql",
   pool: {
     max: 5,
